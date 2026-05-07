@@ -4,10 +4,12 @@
     /* colors */
     --orange: #FF9500;
     --regular-font-color: #fff;
+    --regular-black-color: #000;
 
     /* fonts */
-    --regular-font: "Be Vietnam Pro", sans-serif, 
-    --regular-font-size: 18px;
+    --regular-font: "Be Vietnam Pro", sans-serif; 
+    --regular-font-size: 16px;
+    --regular-font-weight: 400;
 
 }
 
@@ -53,6 +55,24 @@
 .navbar-action-buttons a{
     position: relative;
     text-decoration: none;
-    padding: 0 10px;
     font-family: var(--regular-font);
+}
+
+.navbarSigninbtn{
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--regular-font);
+    font-size: var(--regular-font-size);
+    color: var(--regular-black-color);
+    font-weight: 500;
+}
+
+.navbarLoginbtn{
+    margin-left: 18px;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    border-radius: 10px;
+    font-family: var(--regular-font);
+    font-size: var(--regular-font-size);
+    color: var(--regular-font-color);
 }
