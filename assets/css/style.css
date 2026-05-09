@@ -76,3 +76,9 @@
     font-size: var(--regular-font-size);
     color: var(--regular-font-color);
 }
+
+/* icons styling */
+.bi-lightning-charge-fill{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
